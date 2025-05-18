@@ -48,7 +48,7 @@ Route::delete('/notifications/{id}', [NotificationController::class, 'destroy'])
 // Add this route to check and create health record notifications
 Route::get('/check-health-record-notifications', [NotificationController::class, 'checkHealthRecordNotifications']);
 
-
+//pet route
 Route::get('/pets',[PetController::class,'index'])->name('pets');
 Route::get('/pet/add',[PetController::class,'create'])->name('pet.create');
 Route::post('/pet/store', [PetController::class, 'store'])->name('pet.store');
