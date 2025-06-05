@@ -9,7 +9,7 @@
         position: fixed;
         top: 0;
         left: 0;
-        background-color: #343a40;
+        background-color: #842029;
         padding-top: 20px;
     }
     .sidebar a {
